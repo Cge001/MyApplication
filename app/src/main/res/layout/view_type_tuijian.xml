@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:text="花开伊吕波"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:padding="12dp"
+        android:text="全部成为F-THE PERFdddddPERFdddddPERFdddddPERFddddd全部成为F-THE PERFdddddPERFdddddPERFdddddPERFddddd全部成为F-THE PERFdddddPERFdddddPERFdddddPERFddddd全部成为F-THE PERFdddddPERFdddddPERFdddddPERFddddd全部成为F-THE PERFdddddPERFdddddPERFdddddPERFddddd"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="13sp" />
+</LinearLayout>
